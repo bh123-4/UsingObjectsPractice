@@ -44,6 +44,6 @@ public class Rectangle {
     @Override
     public String toString() {
         // TODO 7 Modify this method to include the area of the rectangle
-        return "Rectangle with w= " + width + ", h= " + height;
+        return "Rectangle with w= " + width + ", h= " + height + ", area = " + calcArea();
     }
 }
